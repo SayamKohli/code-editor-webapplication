@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Merriweather&family=Montserrat:wght@400;900&family=Ubuntu&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  margin-bottom: 12%;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  letter-spacing: 0.1em;
+}
+
+p {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid white;
+  line-height: 0.1em;
+}
+
+p span {
+  background:#fff;
+  padding:0 10px;
+}
+
+input {
+  margin-bottom: 3%;
+}
+
+input:last-of-type {
+  margin-bottom: 0;
+}
+
+input, button {
+  padding: 3%;
+  width: 100%;
+}
+
+.login-container {
+  background-color: black;
+  border-radius: 5%;
+    border:solid maroon;
+  padding: 7%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  /* horizontal align */
+  width: 40vw;
+  margin-left: 30vw;
+  /* vertical align */
+  height: 70vh;
+  margin-top: 15vh;
+  margin-bottom: 20vh;
+}
+
+@media (max-width:1024px) {
+  .login-container{
+    
+    width: 50%;
+  margin-left: 26%;
+  /* vertical align */
+  height: 20%;
+  margin-top: 50%;
+  }
+}
+.btn{
+  border-radius: 20%/90%;
+    border:solid maroon;
+}
+
+#submit, #create-acct-btn {
+  border-radius: 20%/90%;
+    border:solid maroon;
+  background-color: maroon;
+  color: white;
+  border: none;
+  margin-top: 5%;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+#sign-up {
+  border-radius: 20%/90%;
+    border:solid maroon;
+  border: none;
+}
+
+#create-acct {
+  display: none;
+}
+
+#return-btn {
+  background: none;
+  color: grey;
+  text-decoration: underline;
+  border: none;
+  margin-top: 3%;
+}
